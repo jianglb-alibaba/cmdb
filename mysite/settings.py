@@ -208,8 +208,10 @@ LOGGING = {
     }
 }
 
-EMAIL_HOST = 'mail.qq.com'
-EMAIL_PORT = '25'
+#EMAIL_HOST = 'mail.qq.com'
+EMAIL_HOST = 'imap.exmail.qq.com'
+#EMAIL_PORT = '25'
+EMAIL_PORT = '993'
 EMAIL_HOST_USER = 'devops'
 EMAIL_HOST_PASSWORD = '123456'
 EMAIL_USE_TLS = False
@@ -244,15 +246,15 @@ else:
 # BOOTSTRAP_COLUMN_COUNT = 10
 
 # salt api info
-salt_cdn_url = 'https://192.168.111.142/'
-salt_center_url = 'https://192.168.111.101/'
+salt_cdn_url = 'https://10.1.30.155/'
+salt_center_url = 'https://10.1.30.155/'
 salt_user = 'salt'
 salt_passwd = '992a15aecbcf5727df775c45a35738cf'
 
 # zabbix api info
 zabbix_on = False
-zabbix_url = 'http://192.168.111.47:8080/zabbix'
-zabbix_user = 'admin'
-zabbix_passwd = 'zabbix'
+zabbix_url = 'http://10.1.0.38'
+zabbix_user = '121343'
+zabbix_passwd = '123456'
 
 
